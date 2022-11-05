@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+    background: #EDEDED;
+}
+
+.container{
+    width:375px;
+    height:545px;
+    background: #FFFFFF;
+    position:inherit;
+    margin:0 auto 15px auto;
+    border-radius:8px;
+    padding-top:10px;
+    color:#000000;
+    font-weight:400px;
+    font-size:12px;
+    line-height:16.34px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bold{
+    font-weight:bold;
+    font-size:13px;
+}
+
+.main-logo{
+    height:67px;
+    padding:0;
+    display:flex;
+    border-bottom: 1px solid #C6C6C6;
+    margin: 20px auto 15px auto;
+    box-sizing:border-box;
+}
+
+#oldagram-logo{
+    width:127px;
+    height:33.02px;
+    margin:16px 183px 17.98px 15px;
+}
+
+.avatar{
+    width:34px;
+    height:34px;
+    border-radius:50%;
+}
+
+#user-avatar{
+    margin:16px 16px 17px 0;
+}
+
+.user-info{
+    width:348px;
+    height:34px;
+    margin:0px 17px 11px 10px;
+    display:flex;
+}
+
+.user-name{
+    width:307px;
+    height:16px;
+    margin:11px 17px 0 7px;
+}
+
+.location-text{
+    width:307px;
+    height:15px;
+    margin:0 17px 13px 7px;
+    line-height:15.08px;
+}
+
+.post-image{
+    width:375px;
+    height:375px;
+    margin:0;
+}
+
+.content{
+    width:346px;
+    height:78px;
+    margin:21px 19px 16px 10px;
+}
+
+.icons{
+    width:104.34px;
+    height:22.13px;
+    margin:21px 260.66px 0 0;
+    display:flex;
+}
+
+.icon{
+    margin:0 10px 0 0;
+    width:23.3px;
+    height:22.13px;
+}
+
+.icon:hover,
+.icon:focus{
+    cursor:pointer;
+    opacity:0.5;
+    transition:0.4s;
+}
+
+.like-count{
+    width:343px;
+    height:16px;
+    margin:11.87px 0 0 3px;
+}
+
+.caption{
+    width:343px;
+    height:16px;
+    margin:12px 0 0 3px;
+}
+
